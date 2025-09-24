@@ -75,3 +75,31 @@ body {
   width: 100%;
   position: relative;
 }
+
+.task {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+
+.task span {
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.task button {
+  width: 40px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #8052ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
